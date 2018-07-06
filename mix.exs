@@ -6,6 +6,8 @@ defmodule NifGen.MixProject do
       app: :nif_gen,
       version: "1.0.0",
       elixir: "~> 1.6",
+      docs: [main: "NifGen", # The main page in the docs
+       extras: ["README.md"]],
       start_permanent: Mix.env() == :prod,
       description: description(),
       package: package(),
