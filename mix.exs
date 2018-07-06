@@ -20,6 +20,7 @@ defmodule NifGen.MixProject do
 
   defp package,
     do: [
+      files: ["lib", "LICENSE", "mix.exs", "README.md", "templates"],
       licenses: ["MIT"],
       maintainers: ["Connor Rigby"],
       links: %{"GitHub" => "https://github.com/connorrigbyy/nif_gen"},
